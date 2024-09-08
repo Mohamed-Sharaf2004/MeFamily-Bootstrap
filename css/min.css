@@ -1,0 +1,104 @@
+:root{
+
+}
+.nav-link{
+    color: #444444;
+    font-size: 18px;
+} 
+.nav-link:focus{
+    color: #006fbe;
+}
+.nav-link:hover{
+    color: #006fbe;
+}
+.navbar-nav .nav-link.active{
+    color: #006fbe;
+}
+.navbar-brand{
+    color: #24325d;
+}
+.me-family{
+    color: #24325d;
+}
+.content-list{
+    list-style-type: none;
+    padding: 0;
+}
+.content-list li{
+    margin-bottom: 9px;
+}
+.me-f1 h1::after{
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 46%;
+    width: 70px;
+    height: 4px;
+    background-color: #006fbe;
+
+}
+.content-item h3::after{
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 40%;
+    width: 70px;
+    height: 4px;
+    background-color: #006fbe;
+}
+.fa-check-double{
+    color: #006fbe;
+    font-size: 18px;
+}
+.content-item{
+    transition:1s all ;
+}
+.content-item:hover h3{
+    color: #006fbe;
+
+} 
+.icon-shadow .shadow{
+    box-shadow: #000;
+}
+.main-end h2{
+    color: #24325d;
+    font-weight: bold;
+}
+.main-end h2::after{
+    content: "";
+    position: absolute;
+    top: 125%;
+    left: 46%;
+    width: 100px;
+    height: 4px;
+    background-color: #006fbe;
+}
+.img-conent{
+    display: flex;
+    gap: 1rem;
+    width: 80%;
+    overflow-x: auto;
+    margin-inline:auto;
+}
+.img-conent .item{
+    flex-shrink: 0;
+    width: 200px;
+    height: 200px;
+}
+footer {
+    background-color: #24325d;
+    
+}
+.social .social-media{
+    padding: 10px; 
+    border-radius: 54%;
+    background-color: #006fbe;
+}
+.social a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-end a{
+    text-decoration: none;
+
+}
